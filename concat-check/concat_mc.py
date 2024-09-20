@@ -24,7 +24,10 @@ print(' ')
 
 # Task 3
 
-burger_price = '3.78'
+burger_price = 3.78
 
-print('A Junior Cheese Burger would cost you ' + '$' + burger_price + ' at Burger King' + '.')
-print(' ')
+print('A Junior Cheese Burger would cost you ' + '$' + str(burger_price)  + ' at Burger King' + '.')
+
+
+
+print(f'A Junior Cheese Burger would cost you ${burger_price} at Burger King.')
